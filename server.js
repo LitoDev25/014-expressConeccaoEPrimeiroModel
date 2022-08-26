@@ -9,7 +9,6 @@ const app = express();
 const mongoose = require('mongoose');
 mongoose.connect(process.env.CONNECTIONSTRING)
     .then(() => {
-        console.log('connected on database.')
         app.emit('read');
     })
     .catch(e => console.log(e));
