@@ -20,3 +20,14 @@ if you don't know how, just open the folder where this model or your project is 
 type "npm install" (without the quotes), and it will install all the dependencies of that default template.
 
 and it is necessary to create a file ".env" with the security keys at the model root || project.
+
+# espanhol 
+Esta es una plantilla estándar para comenzar a desarrollar proyectos con express, usando un Boilerplate con MongoDB atlas
+como servidor, y algunos paquetes como mongoose para administrar el servidor, sistema de enrutamiento, casco y csurf para seguridad
+entre otros. Usando el patrón MVC para el proyecto.
+
+ATENCIÓN: para usar esta plantilla predeterminada, debe instalar dependencias de nodo.
+si no sabe cómo, simplemente abra la carpeta donde está este modelo o su proyecto con el código visual, abra la terminal y luego
+escriba "npm install" (sin las comillas) e instalará todas las dependencias de esa plantilla predeterminada.
+
+y es necesario crear un archivo ".env" con las claves de seguridad en la raíz del modelo || proyecto.
