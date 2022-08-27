@@ -1,26 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model npm and webpack</title>
-</head>
-<body>
+<%- include('includes/head') %>
 
     <section class="container">
         <div class="box">
-            <h1>Pessoas</h1>
+            <h1>
+                <%= title %>
+            </h1>
 
-            <div class="result"></div>
+            <form action="" method="post">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <label>client</label>
+                <input type="text" name="User">
+                <button type="submit">Send</button>
+            </form>
         </div>
     </section>
-    
 
-    <!-- CDN for Axios -->
-    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
-
-    <!-- Link for JS script -->
-    <script src="./assets/js/bundle.js"></script>
-</body>
-</html>
+<%- include('includes/footer') %> 

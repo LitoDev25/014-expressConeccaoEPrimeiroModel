@@ -1,12 +1,19 @@
 {
     "cSpell.words": [
         "CONNECTIONSTRING",
+        "crsf",
+        "csrf",
+        "EBADCSRFTOKEN",
         "expressconeccaoeprimeiromodel",
         "expressexpressviews",
+        "expresshelmetecsrf",
+        "expressinjetandoconteudonosviews",
         "expressmaiswebpack",
         "expressroutersecontrolers",
+        "expresssessioneflashmessages",
         "homecontroller",
         "litodev",
-        "middlewares"
+        "middlewares",
+        "sistem"
     ]
 }

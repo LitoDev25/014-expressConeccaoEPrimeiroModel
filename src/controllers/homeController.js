@@ -1,5 +1,8 @@
 exports.homePage = (req, res) => {
-    res.render('index')
+    res.render('index', {
+        title: 'Esse é um titulo',
+        number: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    })
     return;
 }
 
